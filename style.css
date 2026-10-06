@@ -1,23 +1,25 @@
 * {
   box-sizing: border-box;
   margin: 0;
-  padding: 0;
+  padding: 0; 
 }
+/* supprimer les marges et paddings par defaut */
 
 html {
   scroll-behavior: smooth;
 }
-
+/* activer le scroll fluide   */
+ 
 body {
-  font-family: 'Inter', Arial, sans-serif;
-  font-size: 16px;
-  line-height: 1.5;
+  font-family: 'Inter', Arial, sans-serif; /* police  */
+  font-size: 16px; /* taiile */
+  line-height: 1.5; /* interligne */
   color: #1F2937;
   background-color: #F7F8FA;
 }
 
 h1, h2, h3, h4 {
-  font-family: 'Poppins', Arial, sans-serif;
+  font-family: 'Poppins', Arial, sans-serif; 
   color: #0F1B2D;
 }
 
@@ -31,14 +33,14 @@ ul {
 }
 
 img {
-  display: block;
-  max-width: 100%;
+  display: block; /* prendre tout la largeur */
+  max-width: 100%; /* pour responsive */
 }
 
-a:focus-visible,
+a:focus-visible, /* lors dun focus un contour */
 button:focus-visible {
   outline: 3px solid #FF6B2C;
-  outline-offset: 2px;
+  outline-offset: 2px;/* contour offset c est a dir  */
 }
 
 .conteneur {
@@ -88,13 +90,13 @@ button:focus-visible {
 }
 
 .bouton {
-  display: inline-block;
+  display: inline-block;/*pour que le bouton ne prenne pas toute la largeur */
   padding: 14px 28px;
   border-radius: 8px;
   font-size: 16px;
   font-weight: 600;
   text-align: center;
-  cursor: pointer;
+  cursor: pointer; 
 }
 
 .bouton-principal {
@@ -118,12 +120,12 @@ button:focus-visible {
 }
 
 .cartes {
-  display: flex;
+  display: flex; /* pour les carte soit cote a cote */
   gap: 24px;
 }
 
 .carte {
-  flex: 1;
+  flex: 1;/* pour les cartes prennent la meme largeur */
   background-color: #FFFFFF;
   border: 1px solid #E5E7EB;
   border-radius: 12px;
@@ -157,9 +159,9 @@ button:focus-visible {
 }
 
 .en-tete {
-  position: sticky;
+  position: sticky; /* pour rest navbar en haut meme si je scroll , fixy : fixe , absolute : selon son position , relative selon le pere */
   top: 0;
-  z-index: 10;
+  z-index: 10;/* pour ne se caache pas aucune */
   background-color: #FFFFFF;
   border-bottom: 1px solid #E5E7EB;
 }
@@ -167,26 +169,22 @@ button:focus-visible {
 .en-tete-contenu {
   height: 80px;
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  align-items: center;        /* Aligne verticalement (sur l'axe Y) */
+  justify-content: space-between; /* Distribue l'espace horizontalement (sur l'axe X) */
 }
 
 .logo {
   display: flex;
   align-items: center;
-  font-family: 'Poppins', Arial, sans-serif;
-  font-size: 24px;
-  font-weight: 700;
-  color: #0F1B2D;
+  width:50px ;
+  height:60px ;
 }
 
-.logo::after {
-  content: "";
-  width: 10px;
-  height: 10px;
+.logo1:hover { 
+  width: 70px;
+  height: 90px;
   margin-left: 8px;
-  background-color: #FF6B2C;
-  border-radius: 50%;
+  transition : all 0.3s ease-in-out ; 
 }
 
 .menu {
@@ -249,10 +247,10 @@ button:focus-visible {
   flex: 5;
   min-width: 0;
   height: 400px;
-  object-fit: cover;
+  object-fit: cover;/*remplir cadre */
   border-radius: 16px;
   border: 1px solid #E5E7EB;
-  box-shadow: 0 10px 25px rgba(15, 27, 45, 0.15);
+  box-shadow: 0 10px 25px rgba(15, 27, 45, 0.15);/*pour ombre premier horizontale , vertical , flou , couleur*/
 }
 
 .chiffres {
@@ -517,16 +515,9 @@ button:focus-visible {
   border-bottom: 1px solid rgba(255, 255, 255, 0.15);
 }
 
-.logo-clair {
-  color: #FFFFFF;
-}
 
-.slogan {
-  margin-top: 8px;
-  font-size: 14px;
-  font-style: italic;
-  color: #CBD5E1;
-}
+
+
 
 .menu-pied {
   gap: 24px;
