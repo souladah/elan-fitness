@@ -22,50 +22,56 @@
       <nav aria-label="Navigation principale">
         <ul class="menu">
           <li><a href="Accueil.html" >Accueil</a></li>
-          <li><a href="apropos.html" class="lien-actif">À propos</a></li>
+          <li><a href="apropos.html">À propos</a></li>
           <li><a href="programmes.html">Programmes</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href="contact.html" class="lien-actif">Contact</a></li>
+
         </ul>
       </nav>
     </div>
   </header>
 
-     <section id="a-propos" class="section">
-      <div class="conteneur apropos-contenu">
+  
 
-        <div class="apropos-texte">
-          <p class="sur-titre">Notre histoire et notre mission</p>
-          <h2>Une communauté passionnée au cœur de Casablanca</h2>
-          <p>
-            Fondé avec la conviction que le sport doit être accessible, motivant et bienveillant,
-            Élan Fitness a été pensé comme un lieu d'énergie positive où chacun progresse à son rythme.
-          </p>
-          <p>
-            Que vous franchissiez pour la première fois la porte d'une salle ou que vous prépariez des
-            objectifs avancés, notre équipe de coachs certifiés vous accompagne au quotidien, sans
-            jugement et avec passion.
-          </p>
+<section class="contact">
 
-          <ul class="valeurs">
-            <li class="valeur">
-              <div class="icone icone-petite"><img src="img/icone-check.svg" alt=""></div>
-              <span>Esprit bienveillant</span>
-            </li>
-            <li class="valeur">
-              <div class="icone icone-petite"><img src="img/icone-check.svg" alt=""></div>
-              <span>Suivi personnalisé</span>
-            </li>
-            <li class="valeur">
-              <div class="icone icone-petite"><img src="img/icone-check.svg" alt=""></div>
-              <span>Ambiance conviviale</span>
-            </li>
-          </ul>
-        </div>
+  <form class="contact-form">
+    <h2>Contactez-nous</h2>
+    <p>Remplissez le formulaire ci-dessous .</p>
+    <label for="nom">Nom :</label>
+    <input type="text" id="nom" name="nom" placeholder="Votre nom">
 
-        <img class="apropos-image" src="img/equipe.jpg" alt="L'équipe de coachs d'Élan Fitness réunie dans la salle">
+    <label for="telephone">Numéro de téléphone :</label>
+    <input type="tel" id="telephone" name="telephone" placeholder="+212 83 384 348">
 
-      </div>
-    </section>
+    <label for="email">Email :</label>
+    <input type="email" id="email" name="email" placeholder="exemple@gmail.com">
+
+    <label for="message">Message :</label>
+    <textarea id="message" name="message" placeholder="Votre message..."></textarea>
+
+    <button type="submit">Envoyer</button>
+  </form>
+
+  <div class="localisation_description">
+    <h2>Nous trouver</h2>
+
+    <p>
+      Retrouvez Élan Fitness au cœur de Casablanca.
+    </p>
+
+    <p>
+      <strong>Adresse :</strong><br>
+      12 rue des Palmiers,<br>
+      20000 Casablanca, Maroc
+    </p>
+
+    <iframe
+      src="https://www.google.com/maps?q=12%20rue%20des%20Palmiers%2C%20Casablanca%2C%20Morocco&output=embed">
+    </iframe>
+  </div>
+
+</section>
 
   <footer class="pied-de-page">
     <div class="conteneur">
