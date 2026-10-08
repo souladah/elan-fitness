@@ -632,3 +632,150 @@ button:focus-visible {
   height: 350px;
   border-radius: 25px;
 }
+
+@media (max-width: 500px) {
+
+  .en-tete-contenu {
+    flex-direction: column;
+    height: auto;
+    padding: 15px 24px;
+    gap: 15px;
+  }
+
+  .menu {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+  }
+
+  .hero-contenu {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-texte {
+    width: 100%;
+  }
+
+  .hero-texte h1 {
+    font-size: 36px;
+  }
+
+  .hero-description {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .hero-image {
+    width: 100%;
+    height: 300px;
+  }
+
+  .boutons {
+    justify-content: center;
+  }
+
+  .chiffres {
+    flex-wrap: wrap;
+    gap: 20px 0;
+    padding: 20px;
+  }
+
+  .chiffre {
+    flex: 1 1 50%;
+    padding: 10px;
+  }
+
+  .chiffre + .chiffre {
+    border-left: none;
+  }
+
+  .cartes {
+    flex-direction: column;
+  }
+
+  .apropos-contenu {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .apropos-texte {
+    width: 100%;
+  }
+
+  .apropos-texte h2 {
+    font-size: 28px;
+  }
+
+  .sur-titre {
+    font-size: 12px;
+  }
+
+  .apropos-image {
+    width: 100%;
+    height: 300px;
+  }
+
+  .valeurs {
+    flex-direction: column;
+  }
+
+  .valeur span {
+    font-size: 12px;
+  }
+
+  .icone-petite {
+    width: 32px;
+    height: 32px;
+    flex-shrink: 0;
+  }
+
+  .icone-petite img {
+    width: 16px;
+    height: 16px;
+  }
+
+  .contact {
+    flex-direction: column;
+    gap: 40px;
+    margin: 40px auto;
+  }
+
+  .contact-form,
+  .localisation_description {
+    width: 100%;
+    min-width: 0;
+  }
+
+  .contact-form {
+    padding: 20px;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    max-width: 100%;
+  }
+
+  .localisation_description iframe {
+    height: 250px;
+  }
+
+  .pied-haut,
+  .pied-bas {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .menu-pied {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+  }
+
+  .pied-de-page {
+    text-align: center;
+  }
+}
