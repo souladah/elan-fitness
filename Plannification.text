@@ -1,0 +1,44 @@
+Planification du projet Élan Fitness
+
+Jour 1 — Preparation et conception
+
+   Recuperer les ressources depuis le Drive.
+   Creer le depot GitHub et initialiser le projet.
+   Analyser le site one page existant et comprendre sa structure et son code.
+   diviser  : Accueil, Programmes et a propos.
+   Creer un logo adapte a l identite visuelle d elan Fitness.
+   Enregistrer les premieres étapes du projet avec des commits Git.
+
+Jour 2 developpement
+
+   Creer la page Contact.
+   Publier le site sur GitHub Pages.
+   Commencer un document presentant les connaissances acquises pendant le projet.
+   Envoyer les modifications sur GitHub avec des commits et des push.
+Jour 3 bonnus
+   Mise en forme et ameliorations
+   Se documenter sur les notions basic et necessaire  au projet :
+         Flexbox et CSS Grid ;
+         animations et transitions CSS ;
+         design responsive ;
+         accessibilite ;
+         référencement naturel (SEO) ;
+         validateur W3C ;
+         balises HTML sémantiques.
+      Realiser bonnus .
+      Mettre a jour le document des connaissances acquises.
+      Envoyer les modifications sur GitHub avec des commits et des push.
+
+Jour 4  test et presentation
+
+   Appliquer le SEO .
+   Tester les pages avec le validateur W3C et corriger les erreurs détectées.
+   Tester tout 
+   Mettre a jour le document des connaissances acquises et la planification.
+   Préparer la presentation .
+   Vérifier que le depot GitHub contient bien :
+         le code source et les ressources necessaires ;
+         le lien vers le site publié sur GitHub Pages ;
+         le document des connaissances acquises ;
+      le present document de planification.
+   Effectuer le dernier commit et push sur GitHub.
