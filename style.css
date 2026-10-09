@@ -66,6 +66,7 @@ button:focus-visible {
   text-align: center;
 }
 
+.section-titre h1,
 .section-titre h2 {
   font-size: 32px;
   margin-bottom: 16px;
@@ -311,6 +312,7 @@ button:focus-visible {
   flex: 7;
 }
 
+.apropos-texte h1,
 .apropos-texte h2 {
   font-size: 36px;
   line-height: 1.2;
@@ -550,6 +552,7 @@ button:focus-visible {
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
 }
 
+.contact-form h1,
 .contact-form h2 {
   margin-bottom: 25px;
   text-align: center;
