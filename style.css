@@ -635,113 +635,228 @@ button:focus-visible {
   border-radius: 25px;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 900px) {
+  .conteneur {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .section {
+    padding: 64px 0;
+  }
+
+  .hero-contenu,
+  .apropos-contenu {
+    gap: 28px;
+  }
+
+  .hero-texte h1 {
+    font-size: clamp(32px, 5vw, 44px);
+  }
+
+  .hero-image {
+    height: 340px;
+  }
+
+  .apropos-image {
+    height: 320px;
+  }
+
+  .cartes {
+    flex-wrap: wrap;
+  }
+
+  .cartes > .carte {
+    flex: 1 1 calc(50% - 12px);
+    min-width: 0;
+  }
+
+  .contact {
+    gap: 24px;
+  }
+
+  .contact-form,
+  .localisation_description {
+    width: calc(50% - 12px);
+    min-width: 0;
+  }
+
+  .menu-pied {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px 18px;
+  }
+}
+@media (max-width: 600px) {
+  .conteneur {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .section {
+    padding: 48px 0;
+  }
+
+  .section-titre {
+    margin-bottom: 32px;
+  }
+
+  .section-titre h1,
+  .section-titre h2 {
+    font-size: 28px;
+  }
+
+  .section-titre h3 {
+    font-size: 23px;
+  }
 
   .en-tete-contenu {
     flex-direction: column;
     height: auto;
-    padding: 15px 24px;
-    gap: 15px;
-  }
-
-  .menu {
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
+    padding: 12px 16px;
     gap: 12px;
   }
 
-  .hero-contenu {
-    flex-direction: column;
-    text-align: center;
+  .logo {
+    width: 50px;
+    height: 50px;
   }
 
-  .hero-texte {
+  .logo1:hover {
+    width: 50px;
+    height: 50px;
+    margin-left: 0;
+  }
+
+  .menu {
     width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px 14px;
+  }
+
+  .menu a {
+    font-size: 14px;
+  }
+
+  .hero {
+    padding: 40px 0 52px;
+  }
+
+  .hero-contenu,
+  .apropos-contenu {
+    flex-direction: column;
+    align-items: stretch;
+    text-align: center;
+    gap: 28px;
+  }
+
+  .hero-texte,
+  .apropos-texte {
+    width: 100%;
+    min-width: 0;
   }
 
   .hero-texte h1 {
-    font-size: 36px;
+    font-size: clamp(30px, 8vw, 38px);
+    line-height: 1.2;
+    margin-bottom: 18px;
+    overflow-wrap: break-word;
+    word-break: normal;
   }
 
   .hero-description {
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .hero-image {
-    width: 100%;
-    height: 300px;
+    max-width: 100%;
+    font-size: 16px;
+    margin: 0 auto 24px;
   }
 
   .boutons {
     justify-content: center;
+    gap: 12px;
+  }
+
+  .bouton {
+    max-width: 100%;
+    padding: 12px 18px;
+  }
+
+  .hero-image,
+  .apropos-image {
+    width: 100%;
+    height: 260px;
+    min-width: 0;
   }
 
   .chiffres {
     flex-wrap: wrap;
-    gap: 20px 0;
-    padding: 20px;
+    margin-top: 36px;
+    padding: 18px 10px;
+    gap: 12px 0;
   }
 
   .chiffre {
     flex: 1 1 50%;
-    padding: 10px;
+    min-width: 0;
+    padding: 8px;
   }
 
   .chiffre + .chiffre {
     border-left: none;
   }
 
-  .cartes {
-    flex-direction: column;
-  }
-
-  .apropos-contenu {
-    flex-direction: column;
-    gap: 30px;
-  }
-
-  .apropos-texte {
-    width: 100%;
-  }
-
-  .apropos-texte h2 {
+  .chiffre-nombre {
     font-size: 28px;
   }
 
-  .sur-titre {
-    font-size: 12px;
+  .cartes {
+    flex-direction: column;
+    gap: 18px;
   }
 
-  .apropos-image {
+  .cartes > .carte {
     width: 100%;
-    height: 300px;
+    min-width: 0;
+  }
+
+  .apropos-texte h1,
+  .apropos-texte h2 {
+    font-size: 28px;
+    overflow-wrap: break-word;
+    word-break: normal;
+  }
+
+  .apropos-texte p {
+    text-align: left;
   }
 
   .valeurs {
     flex-direction: column;
+    gap: 12px;
   }
 
-  .valeur span {
-    font-size: 12px;
+  .valeur {
+    min-width: 0;
   }
 
-  .icone-petite {
-    width: 32px;
-    height: 32px;
-    flex-shrink: 0;
+  .programme-corps {
+    padding: 18px;
   }
 
-  .icone-petite img {
-    width: 16px;
-    height: 16px;
+  .formules {
+    margin-top: 56px;
+  }
+
+  .formule {
+    padding: 24px 18px;
   }
 
   .contact {
     flex-direction: column;
-    gap: 40px;
-    margin: 40px auto;
+    align-items: stretch;
+    gap: 28px;
+    margin: 36px auto;
+    padding: 0 16px;
   }
 
   .contact-form,
@@ -751,30 +866,115 @@ button:focus-visible {
   }
 
   .contact-form {
-    padding: 20px;
+    padding: 20px 16px;
+  }
+
+  .contact-form h1,
+  .contact-form h2 {
+    font-size: 26px;
   }
 
   .contact-form input,
   .contact-form textarea {
+    width: 100%;
     max-width: 100%;
+    min-width: 0;
+  }
+
+  .localisation_description {
+    line-height: 1.7;
   }
 
   .localisation_description iframe {
+    display: block;
+    width: 100%;
     height: 250px;
+    border: 0;
   }
 
-
-
-  .menu-pied {
-    display: flex;
+  .pied-haut,
+  .pied-bas {
     flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 12px;
-  }
-
-
-  .pied-de-page {
+    align-items: center;
+    gap: 20px;
     text-align: center;
   }
+
+  .menu-pied {
+    flex-direction: row;
+    justify-content: center;
+    gap: 12px 16px;
+  }
+
+  .pied-bas {
+    margin-top: 20px;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    overflow-wrap: break-word;
+    word-break: normal;
+  }
+}
+
+@media (max-width: 360px) {
+  .conteneur {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+  .section {
+    padding: 40px 0;
+  }
+
+  .menu {
+    gap: 8px 10px;
+  }
+
+  .menu a {
+    font-size: 13px;
+  }
+
+  .hero-texte h1 {
+    font-size: 29px;
+  }
+
+  .boutons {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .boutons .bouton {
+    width: 100%;
+  }
+
+  .chiffres {
+    padding: 12px 6px;
+  }
+
+  .chiffre-nombre {
+    font-size: 24px;
+  }
+
+  .contact {
+    padding: 0 12px;
+  }
+
+  .contact-form {
+    padding: 18px 14px;
+  }
+}
+html,
+body {
+  max-width: 100%;
+  overflow-x: clip;
+}
+
+iframe,
+input,
+textarea,
+button {
+  max-width: 100%;
 }
