@@ -168,7 +168,6 @@ button:focus-visible {
 }
 
 .en-tete-contenu {
-  height: 80px;
   display: flex;
   align-items: center;        /* Aligne verticalement (sur l'axe Y) */
   justify-content: space-between; /* Distribue l'espace horizontalement (sur l'axe X) */
