@@ -640,7 +640,7 @@ button:focus-visible {
     padding-left: 20px;
     padding-right: 20px;
   }
-
+  
   .section {
     padding: 64px 0;
   }
@@ -658,8 +658,9 @@ button:focus-visible {
     height: 340px;
   }
 
-  .apropos-image {
-    height: 320px;
+  .apropos-contenu{
+    display: flex;
+    flex-direction: column;
   }
 
   .cartes {
