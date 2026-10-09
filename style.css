@@ -764,19 +764,16 @@ button:focus-visible {
     height: 250px;
   }
 
-  .pied-haut,
-  .pied-bas {
-    flex-direction: column;
-    gap: 20px;
-  }
+
 
   .menu-pied {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
     gap: 12px;
   }
+
 
   .pied-de-page {
     text-align: center;
